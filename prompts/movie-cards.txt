@@ -1,0 +1,24 @@
+create a script to create a table in postgtresql
+
+- the first table is a table to stores a movie permanent facts about the film
+- the second table is a table to stores the Posters, the marketing data (this allow to have multiple poster for the same movie)
+
+connect the tables with foreign key
+
+first table: tbl_movies
+- movie id
+- title
+- release year
+- genre
+- director
+- runtime
+- rating
+
+
+second table: tbl_posters
+- poster id
+- movie id
+- image url
+- tagline
+- poster type
+- primary color
